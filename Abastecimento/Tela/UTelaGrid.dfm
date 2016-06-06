@@ -1,0 +1,83 @@
+object FTelaGrid: TFTelaGrid
+  Left = 0
+  Top = 0
+  BorderStyle = bsDialog
+  Caption = 'Tela Grid'
+  ClientHeight = 450
+  ClientWidth = 684
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  Position = poMainFormCenter
+  OnCreate = FormCreate
+  OnDestroy = FormDestroy
+  PixelsPerInch = 96
+  TextHeight = 13
+  object Grid: TDBGrid
+    Left = 0
+    Top = 68
+    Width = 684
+    Height = 382
+    Align = alClient
+    TabOrder = 0
+    TitleFont.Charset = DEFAULT_CHARSET
+    TitleFont.Color = clWindowText
+    TitleFont.Height = -11
+    TitleFont.Name = 'Tahoma'
+    TitleFont.Style = []
+  end
+  object Panel1: TPanel
+    Left = 0
+    Top = 0
+    Width = 684
+    Height = 68
+    Align = alTop
+    TabOrder = 1
+    object btnIncluir: TBitBtn
+      Left = 8
+      Top = 13
+      Width = 89
+      Height = 41
+      Caption = 'Incluir'
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -13
+      Font.Name = 'Tahoma'
+      Font.Style = []
+      ParentFont = False
+      TabOrder = 0
+    end
+    object btnAlterar: TBitBtn
+      Left = 103
+      Top = 13
+      Width = 90
+      Height = 41
+      Caption = 'Alterar'
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -13
+      Font.Name = 'Tahoma'
+      Font.Style = []
+      ParentFont = False
+      TabOrder = 1
+    end
+    object btnLocalizar: TBitBtn
+      Left = 199
+      Top = 13
+      Width = 90
+      Height = 41
+      Caption = 'Localizar'
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -13
+      Font.Name = 'Tahoma'
+      Font.Style = []
+      ParentFont = False
+      TabOrder = 2
+    end
+  end
+end
